@@ -1,0 +1,10 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPointStrategy": "packages",
+  "entryPoints": ["packages/ui"],
+  "packageOptions": { "entryPoints": ["src/index.ts"] },
+  "plugin": ["typedoc-plugin-markdown"],
+  "router": "module",
+  "excludeScopesInPaths": true,
+  "out": "docs"
+}
